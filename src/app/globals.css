@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .Header {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 600;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -14,15 +14,29 @@
   text-align: center;
   color: rgb(0, 0, 0);
 }
-.Content {
-  margin-top: 0px;
-  padding-top: 0px;
-}
-.building {
-  font-size: 30px;
+.Intro {
+  font-size: 40px;
   font-weight: 800;
   text-align: center;
-  color: brown;
+  color: rgb(8, 87, 83);
+  position: relative; top:10px;
+}
+.Button {
+  padding: 30px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.616);
+}
+.bText {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+.bTexts {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 body {
   background-image: linear-gradient(rgb(142, 231, 253), rgba(0, 68, 255, 0.5));
