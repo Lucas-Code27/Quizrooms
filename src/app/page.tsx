@@ -1,3 +1,5 @@
+import Link from "next/link";
+
  export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -16,7 +18,7 @@
             <p className="bTexts">Joining quizzes</p>
           </div>
         </button>
-
+<Link href="/host">Go To Host</Link>
         <button className="Button">
           <h1 className="bText">Host</h1>
           <div>
