@@ -1,3 +1,4 @@
+import { Button, Container } from "@mantine/core";
 import Link from "next/link";
 
  export default function Home() {
@@ -25,6 +26,16 @@ import Link from "next/link";
             <p className="bTexts">Hosting and creating quizzes for others to join</p>
           </div>
         </button>
+        <Button variant="outline" color="gray" size="xl">Hello</Button>
+        <Button component={Link} href="/host" />
+        <Link href="/host">
+          <Container bg="#e0e0e0">
+            <h1 className="bText">Host</h1>
+            <div>
+              <p className="bTexts">Hosting and creating quizzes for others to join</p>
+            </div>
+          </Container>
+        </Link>
       </div>
     </main>
   );
