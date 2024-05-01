@@ -25,11 +25,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>
-          <p>Menu</p>
-          <p><Link href="/">Home</Link></p>
-          <p><Link href="/host">Host</Link></p>
-        </div>
         <MantineProvider>
         {children}
         </MantineProvider>

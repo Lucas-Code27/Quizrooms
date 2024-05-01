@@ -27,17 +27,19 @@
   background-color: rgba(255, 255, 255, 0.616);
 }
 .bText {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+.bHead {
   font-size: 40px;
   font-weight: 700;
-  text-align: left;
-  color: rgb(0, 0, 0);
-}
-.bTexts {
-  font-size: 30px;
-  font-weight: 400;
-  text-align: left;
+  text-align: center;
   color: rgb(0, 0, 0);
 }
 body {
   background-image: linear-gradient(rgb(142, 231, 253), rgba(0, 68, 255, 0.5));
 }
+

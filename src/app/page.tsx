@@ -8,35 +8,39 @@ import Link from "next/link";
         <h1 className="Header">Welcome to the Quizrooms</h1>
         <h6 className="SubHeader">The next level of Quizzes</h6>
         <div>
-          <h2 className="Intro">Who are you?</h2>
+          <h2 className="Intro">What are you doing today?</h2>
         </div>
       </div>
 
       <div className="Options">
-        <button className="Button">
-          <h1 className="bText">Player</h1>
-          <div>
-            <p className="bTexts">Joining quizzes</p>
-          </div>
-        </button>
-<Link href="/host">Go To Host</Link>
-        <button className="Button">
-          <h1 className="bText">Host</h1>
-          <div>
-            <p className="bTexts">Hosting and creating quizzes for others to join</p>
-          </div>
-        </button>
-        <Button variant="outline" color="gray" size="xl">Hello</Button>
-        <Button component={Link} href="/host" />
-        <Link href="/host">
-          <Container bg="#e0e0e0">
-            <h1 className="bText">Host</h1>
-            <div>
-              <p className="bTexts">Hosting and creating quizzes for others to join</p>
-            </div>
-          </Container>
-        </Link>
-      </div>
+          <Link href="/player">
+            <Container px={30} bg="#e0e0e0" size="sm"
+              styles={{
+                root: {
+                  margin: '20px', // Adjust this value as needed
+                },
+              }}>
+            <h1 className="bHead">Player</h1>
+              <div>
+              < p className="bText">Play against others in a Quiz</p>
+              </div>
+            </Container>
+         </Link>
+          <Link href="/host">
+            <Container px={30} bg="#e0e0e0" size="sm"
+              styles={{
+                root: {
+                  
+                  margin: '20px', // Adjust this value as needed
+                },
+              }}>
+            <h1 className="bHead">Host</h1>
+              <div>
+                <p className="bText">Hosting and creating quizzes for others to join</p>
+              </div>
+            </Container>
+          </Link>
+        </div>
     </main>
   );
 }
