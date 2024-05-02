@@ -48,8 +48,13 @@ body {
   left: 50%;
   transform: translate(-65%, -65%);
 }
-.playerHeader {
-  width: 100%;
-  transform: translate(0,-100%)
+.Return {
+  text-align: center;
 }
-
+.File {
+  margin: 50px;
+}
+.Create {
+  margin: 50px;
+  text-align: center;
+}

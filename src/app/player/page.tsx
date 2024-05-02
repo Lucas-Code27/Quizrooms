@@ -5,7 +5,7 @@ import Link from "next/link";
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">  
       <Link href="/">
-        <Container bg="#e0e0e0">Return To Home Page</Container>
+        <Container bg="#e0e0e0" className="Return">Return To Home Page</Container>
       </Link>
       <Container bg="#e0e0e0" className = "CodeInput"
        styles={{
