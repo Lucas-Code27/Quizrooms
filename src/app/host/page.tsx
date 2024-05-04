@@ -15,7 +15,7 @@ import Link from "next/link";
           label="Enter Quiz File Here"
           placeholder="Quiz File goes here"
         />
-        <Link href="/" className="Create">
+        <Link href="/host/create" className="Create">
           <Container bg="#e0e0e0">
             <p>Create a Quiz</p>
           </Container>
