@@ -13,7 +13,9 @@ import Link from "next/link";
         </div>
         <a 
         download href="/funny cat.jpg"
-        >cat</a>
+        >
+          <p className="download" >Download</p>
+        </a>
       </div>
     </main>
   );
