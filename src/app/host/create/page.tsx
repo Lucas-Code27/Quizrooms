@@ -14,7 +14,10 @@ import Link from "next/link";
         <a 
         download href="/funny cat.jpg"
         >
+          <Container bg="#e0e0e0" className="download">
           <p className="download" >Download</p>
+          <p className="warning">WARNING: THIS IS A TEST AND WILL SEND YOU A PICTURE OF A FUNNY CAT</p>
+          </Container>
         </a>
       </div>
     </main>

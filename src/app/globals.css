@@ -60,7 +60,14 @@ body {
 }
 .download {
   text-align: center;
+  align-content: center;
   margin: 40px;
   font-weight: 700;
-  background-color: rgba(255, 255, 255, 0.616);
+}
+.warning {
+  text-align: center;
+  align-content: center;
+  margin: 20px;
+  font-weight: 900;
+  color: red;
 }
