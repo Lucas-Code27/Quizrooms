@@ -2,75 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.Header {
-  font-size: 70px;
-  font-weight: 600;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-.SubHeader {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-.Intro {
-  font-size: 40px;
-  font-weight: 800;
-  text-align: center;
-  color: rgb(8, 87, 83);
-  position: relative; top:10px;
-}
-.Button {
-  padding: 30px;
-  margin: 20px;
-  background-color: rgba(255, 255, 255, 0.616);
-}
-.bText {
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  padding-bottom: 10px;
-}
-.bHead {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-body {
-  background-image: linear-gradient(rgb(142, 231, 253), rgba(0, 68, 255, 0.5));
-}
-.CodeInput {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-65%, -65%);
-}
-.Return {
-  text-align: center;
-}
-.File {
-  margin: 50px;
-}
-.Create {
-  margin: 50px;
-  text-align: center;
-}
-.download {
-  text-align: center;
-  align-content: center;
-  padding: 10px;
-  margin: 5px;
-  font-weight: 700;
-  background-color: rgba(255, 255, 255, 0.616);
-}
-.cheader {
-  display: flex;
-  margin-bottom: 20px;
-  transform: translate(0, -100%);
-  margin-top: 0px;
-  align-content: center;
-  vertical-align: middle;
+.TitleBox {
+  background-color: rgb(185, 185, 185);
+  display: inline-flex;
+  font-size: 80px;
+  padding: 20px;
 }
